@@ -1,0 +1,37 @@
+-- SQL file to be loaded into Caddies
+-- NCDS6 Cohort Member Interview - Proxy
+INSERT INTO response_units VALUES (1, "Default", "2015-04-13 13:29:15.294000","2015-04-13 13:29:15.294000");
+INSERT INTO cc_sequences VALUES (2, "NCDS6 Cohort Member Interview - Proxy", "2015-04-13 13:29:15.294000", "2015-04-13 13:29:15.294000");
+INSERT INTO cc_alls VALUES (2, "CcSequence", 2, "2015-04-13 13:29:15.294000", "2015-04-13 13:29:15.294000", 1, 0, "f");
+INSERT INTO cc_sequences VALUES (3, "A - Introduction Household Grid and Housing", "2015-04-13 13:29:15.294000", "2015-04-13 13:29:15.294000");
+INSERT INTO cc_alls VALUES (3, "CcSequence", 3, "2015-04-13 13:29:15.294000", "2015-04-13 13:29:15.294000", 2, 0, "f");
+INSERT INTO cc_sequences VALUES (4, "Introduction Household Grid and Housing", "2015-04-13 13:29:15.294000", "2015-04-13 13:29:15.294000");
+INSERT INTO cc_alls VALUES (4, "CcSequence", 4, "2015-04-13 13:29:15.294000", "2015-04-13 13:29:15.294000", 3, 0, "f");
+INSERT INTO cc_sequences VALUES (5, "Current Accommodation", "2015-04-13 13:29:15.294000", "2015-04-13 13:29:15.294000");
+INSERT INTO cc_alls VALUES (5, "CcSequence", 5, "2015-04-13 13:29:15.294000", "2015-04-13 13:29:15.294000", 3, 1, "f");
+INSERT INTO cc_sequences VALUES (6, "Current Relationships", "2015-04-13 13:29:15.294000", "2015-04-13 13:29:15.294000");
+INSERT INTO cc_alls VALUES (6, "CcSequence", 6, "2015-04-13 13:29:15.294000", "2015-04-13 13:29:15.294000", 2, 1, "f");
+INSERT INTO cc_sequences VALUES (7, "Pregnancies and Birth", "2015-04-13 13:29:15.294000", "2015-04-13 13:29:15.294000");
+INSERT INTO cc_alls VALUES (7, "CcSequence", 7, "2015-04-13 13:29:15.294000", "2015-04-13 13:29:15.294000", 2, 2, "f");
+INSERT INTO cc_sequences VALUES (8, "D - Employment", "2015-04-13 13:29:15.294000", "2015-04-13 13:29:15.294000");
+INSERT INTO cc_alls VALUES (8, "CcSequence", 8, "2015-04-13 13:29:15.294000", "2015-04-13 13:29:15.294000", 2, 3, "f");
+INSERT INTO cc_sequences VALUES (9, "Employment", "2015-04-13 13:29:15.294000", "2015-04-13 13:29:15.294000");
+INSERT INTO cc_alls VALUES (9, "CcSequence", 9, "2015-04-13 13:29:15.294000", "2015-04-13 13:29:15.294000", 8, 0, "f");
+INSERT INTO cc_sequences VALUES (10, "Employment", "2015-04-13 13:29:15.294000", "2015-04-13 13:29:15.294000");
+INSERT INTO cc_alls VALUES (10, "CcSequence", 10, "2015-04-13 13:29:15.294000", "2015-04-13 13:29:15.294000", 8, 1, "f");
+INSERT INTO cc_sequences VALUES (11, "E - Life Long Learning", "2015-04-13 13:29:15.294000", "2015-04-13 13:29:15.294000");
+INSERT INTO cc_alls VALUES (11, "CcSequence", 11, "2015-04-13 13:29:15.294000", "2015-04-13 13:29:15.294000", 2, 4, "f");
+INSERT INTO cc_sequences VALUES (12, "Academic Qualifications", "2015-04-13 13:29:15.294000", "2015-04-13 13:29:15.294000");
+INSERT INTO cc_alls VALUES (12, "CcSequence", 12, "2015-04-13 13:29:15.294000", "2015-04-13 13:29:15.294000", 11, 0, "f");
+INSERT INTO cc_sequences VALUES (13, "Vocational Qualifications", "2015-04-13 13:29:15.294000", "2015-04-13 13:29:15.294000");
+INSERT INTO cc_alls VALUES (13, "CcSequence", 13, "2015-04-13 13:29:15.294000", "2015-04-13 13:29:15.294000", 11, 1, "f");
+INSERT INTO cc_sequences VALUES (14, "F - Health", "2015-04-13 13:29:15.294000", "2015-04-13 13:29:15.294000");
+INSERT INTO cc_alls VALUES (14, "CcSequence", 14, "2015-04-13 13:29:15.294000", "2015-04-13 13:29:15.294000", 2, 5, "f");
+INSERT INTO cc_sequences VALUES (15, "Long Term Limiting Illness", "2015-04-13 13:29:15.294000", "2015-04-13 13:29:15.294000");
+INSERT INTO cc_alls VALUES (15, "CcSequence", 15, "2015-04-13 13:29:15.294000", "2015-04-13 13:29:15.294000", 14, 0, "f");
+INSERT INTO cc_sequences VALUES (16, "Sight and Hearing", "2015-04-13 13:29:15.294000", "2015-04-13 13:29:15.294000");
+INSERT INTO cc_alls VALUES (16, "CcSequence", 16, "2015-04-13 13:29:15.294000", "2015-04-13 13:29:15.294000", 14, 1, "f");
+INSERT INTO cc_sequences VALUES (17, "Height and Weight", "2015-04-13 13:29:15.294000", "2015-04-13 13:29:15.294000");
+INSERT INTO cc_alls VALUES (17, "CcSequence", 17, "2015-04-13 13:29:15.294000", "2015-04-13 13:29:15.294000", 14, 2, "f");
+INSERT INTO cc_sequences VALUES (18, "Derived Variables", "2015-04-13 13:29:15.294000", "2015-04-13 13:29:15.294000");
+INSERT INTO cc_alls VALUES (18, "CcSequence", 18, "2015-04-13 13:29:15.294000", "2015-04-13 13:29:15.294000", 2, 6, "f");
